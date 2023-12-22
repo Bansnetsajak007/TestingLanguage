@@ -1,0 +1,9 @@
+fun factorial(n) {
+    if(n>=1)  return(n*factorial(n-1));
+
+    return 1;
+}
+
+var fact = factorial(5);
+
+print(fact);
